@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <title>Calculadora</title>
+    <script src="calculadora.js"></script>
+    
+</head>
+
+<body>
+    
+    <h1>Calculadora</h1>
+
+    <!--TABELA-->
+
+    <div class="central">
+        <footer>
+
+            <tr>
+                <td><input class="visor" readonly id="visor" type="text"></td>
+            </tr><br>
+
+            <tr>
+                <td><input class="button" type="button" value="C" onclick="exibirMensagem(this.value)"></td>
+                <td><input class="button" type="button" value="^" onclick="exibirMensagem(this.value)"></td>
+                <td><input class="button" type="button" value="%" onclick="exibirMensagem(this.value)"></td>
+                <td><input class="button" type="button" value="/" onclick="exibirMensagem(this.value)"></td>
+            </tr><br>
+
+            <tr>
+                <td><input class="button" type="button" value="7" onclick="exibirMensagem(this.value)"></td>
+                <td><input class="button" type="button" value="8" onclick="exibirMensagem(this.value)"></td>
+                <td><input class="button" type="button" value="9" onclick="exibirMensagem(this.value)"></td>
+                <td><input class="button" type="button" value="+" onclick="exibirMensagem(this.value)"></td>
+            </tr><br>
+
+            <tr>
+                <td><input class="button" type="button" value="4" onclick="exibirMensagem(this.value)"></td>
+                <td><input class="button" type="button" value="5" onclick="exibirMensagem(this.value)"></td>
+                <td><input class="button" type="button" value="6" onclick="exibirMensagem(this.value)"></td>
+                <td><input class="button" type="button" value="-" onclick="exibirMensagem(this.value)"></td>
+            </tr><br>
+
+            <tr>
+                <td><input class="button" type="button" value="1" onclick="exibirMensagem(this.value)" ></td>
+                <td><input class="button" type="button" value="2" onclick="exibirMensagem(this.value)"></td>
+                <td><input class="button" type="button" value="3" onclick="exibirMensagem(this.value)"></td>
+                <td><input class="button" type="button" value="*" onclick="exibirMensagem(this.value)"></td>
+            </tr><br>
+
+            <tr>
+                <td><input class="button" type="button" value="0"    onclick="exibirMensagem(this.value)"></td>
+                <td><input class="total" type="button" value="Total" onclick="exibirMensagem(this.value)"> </td>
+                
+            </tr>
+        </footer>
+    </div>
+
+</body>
+</html>

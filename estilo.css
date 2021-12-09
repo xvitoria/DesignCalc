@@ -1,0 +1,66 @@
+
+body{
+    background-image: url('fundoBasico.jpg');
+    
+}
+
+h1{
+    font-family: 'WindSong', cursive;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(223, 67, 152); text-shadow: black 0.1em 0.1em 0.2em
+}
+
+footer{
+    margin-left: 5%;
+    margin-top: 20px;
+   
+}
+
+.central{
+    border: solid black 2px;
+    width: 290px;
+    height:450px;
+    margin-left: 39%;
+    background-image: url('fundo.png');
+    border-radius:25px;
+}
+
+div.Estrutura{
+    width:30px;
+    height:30px;
+    border: 25px solid;
+    border: black;
+}
+
+.visor{
+    width: 245px;
+    height:40px;
+    border-radius:15px;
+}
+.button{
+    width:60px;
+    height:60px;
+    margin-top: 10px;
+    background-color: rgba(241, 238, 239, 0.671);
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    border-radius:25px;
+}
+
+.total{
+    width: 188px;
+    height:60px;
+    font-family: 'Indie Flower', cursive;
+    background-color: rgba(241, 238, 239, 0.671);
+    font-size: 30px;
+    border-radius:25px;
+}
+
+.button:hover, .total:hover{
+    background-color: rgba(240, 59, 143, 0.466);
+}
+
+.button:active, .total:active{
+    background: linear-gradient(rgba(255, 255, 255, 0.938),rgb(226, 0, 30));
+} 
